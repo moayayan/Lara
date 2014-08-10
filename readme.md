@@ -1,3 +1,12 @@
+Online School Payment System
+-----
+This is my project for the course System Analysis and Design. An Online School Payment System. It uses Laravel for my back-end frameword. If you have any comments or suggestions please email me at:
+
+jhan.roenz@gmail.com 
+or
+jhan.roenz@live.com
+
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
