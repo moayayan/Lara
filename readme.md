@@ -1,6 +1,6 @@
 Online School Payment System
 -----
-This is my project for the course System Analysis and Design. An Online School Payment System. It uses Laravel for my back-end frameword. If you have any comments or suggestions please email me at:
+This is my project for the course System Analysis and Design. An Online School Payment System. It uses Laravel for my back-end framework. If you have any comments or suggestions please email me at:
 
 jhan.roenz@gmail.com 
 or
