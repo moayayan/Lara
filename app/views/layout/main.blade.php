@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	{{ HTML::style('css/bootstrap.css') }}
 	<meta charset="UTF-8">
 	<title>Payment BETA</title>
 </head>

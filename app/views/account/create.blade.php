@@ -33,3 +33,5 @@
 		{{ Form::token()}}
 	</form>
 @stop
+
+@extends('layout.footer')
