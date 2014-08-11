@@ -21,3 +21,5 @@
 	</form>
 
 @stop
+
+@extends('layout.footer')
