@@ -1,10 +1,14 @@
-@extends('layout.main')
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-@section('content')
-	@if(Auth::check())
-	<p>Hello, {{ Auth::user()->username }}</p>
-	@else
-		<div class="intro-header">
+    <title>Online Payments System</title>
+</head>
+
+<div class="intro-header">
 
         <div class="container">
 
@@ -51,7 +55,3 @@
             </div>
         </div>
     </footer>
-	@endif
-
-
-@stop
