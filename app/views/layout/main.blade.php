@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	{{ HTML::style('css/bootstrap.css') }}
+	{{ HTML::style('css/bootflat.css') }}
 	{{ HTML::style('css/style.css') }}
 	{{ HTML::style('css/landing-page.css') }}
 
