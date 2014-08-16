@@ -38,19 +38,19 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="list-inline">
-                        <li><a href="{{ URL::route('home') }}">Home</a>
+                        <li><a href="{{ URL::route('home') }}"><strong>Home</strong></a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#about">About</a>
+                        <li><a href="#about"><strong>About</strong></a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
+                        <li><a href="#services"><strong>Services</strong></a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
+                        <li><a href="#contact"><strong>Contact</strong></a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Saint Vincent College of Cabuyao 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small"><strong>Copyright &copy; Saint Vincent College of Cabuyao 2014. All Rights Reserved</strong> </p>
                 </div>
             </div>
         </div>
