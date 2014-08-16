@@ -5,7 +5,7 @@
 	<form action="{{ URL::route('account-sign-in-post')}}" method="post">
 		<div class="field row">
 			<div class="col-xs-4">
-			<input type="text" class="form-control" name="email" placeholder="Email" {{ (Input::old('email')) ? ' value="' . Input::old('email') . '"' : '' }}>
+			<input type="text" class="form-control" name="email" placeholder="Email" {{ (Input::old('email')) ? ' value="' . Input::old('email') . '"' : '' }} required>
 			</div>
 			@if($errors->has('email'))
 			{{ $errors->first('email') }}
@@ -13,7 +13,7 @@
 		</div>
 		<div class="field row">
 			<div class="col-xs-4">
-			<input type="password" class="form-control" placeholder="Password" name="password">
+			<input type="password" class="form-control" placeholder="Password" name="password" required>
 			</div>
 			@if($errors->has('password'))
 			{{ $errors->first('password') }}
